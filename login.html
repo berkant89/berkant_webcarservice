@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2APortal - Bayi Girişi</title>
+   <meta name="description" content="2A Mühendislik Bayi Portalı"/>
+    <meta charset="utf-8"/>
+    <meta content="ie=edge" http-equiv="x-ua-compatible"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link media="all" type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,700,600,300,500&amp;subset=latin,latin-ext">
+    <link media="all" type="text/css" rel="stylesheet" href="https://2aportal.com/assets/css/login.css">
+    </head>
+<body>
+
+<div class="login-wrap">
+    <div class="wrap">
+        <div class="vertical-out">
+            <div class="vertical-in">
+                <div class="login-inner">
+                    <div class="logo"><img src="https://2aportal.com/assets/images/login-logo.png" alt="2APortal"/></div>
+                    <div class="login-screen">
+                        <div class="login-form">
+                                <div class="login-title">Berkant WEB CAR SERVICE</div>
+    <form method="POST" action="https://2aportal.com/login" accept-charset="UTF-8" role="form" id="loginform" autocomplete="off"><input name="_token" type="hidden" value="n0BwwTWBALnm5zcBemQujzSYHP2ooccodom5XrRd">
+    <section >
+        <input class="input" id="email" placeholder="E-mail adresiniz" required="required" name="email" type="email">
+            </section>
+    <section >
+        <input class="input" id="password" placeholder="Şifreniz" required="required" name="password" type="password" value="">
+            </section>
+    <section>
+        <label><input name="remember_me" value="1" type="checkbox"/> Beni hatırla</label>
+        <a href="https://2aportal.com/password/forgot" class="fr">Şifremi unuttum</a>
+    </section>
+    <section>
+        <button type="submit" id="send" class="button">Giriş yap</button>
+    </section>
+    </form>
+                        </div>
+                    </div>
+                    <div class="login-bg">
+                        <span>
+                            <img src="https://2aportal.com/assets/images/cover/4.jpg" alt="2A Mühendislik"/> 
+                             <!--<img src="https://2aportal.com/assets/images/cover/7.jpg" alt="2A Mühendislik"/>-->
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="bottom-bar">
+    <div class="wrap">
+        <div class="fl">
+            <ul>
+                <li><a href="https://2aportal.com/login">Ana sayfa</a></li>
+                <li><a href="https://2aportal.com/page/dpr">Gizlilik Politikası</a></li>
+            </ul>
+        </div>
+        <div class="fr">powered by <strong>Berkan Satın</strong></a></div>
+    </div>
+</div>
+<script type="text/javascript" src="https://2aportal.com/assets/js/login.js"></script>
+<script type="text/javascript">
+    var notyErrorMessages = function () {
+
+        var _notyComponents = function () {
+            if (typeof Noty == 'undefined') {
+                console.warn('noty yüklenemedi');
+                return;
+            }
+
+            Noty.overrideDefaults({
+                theme: 'nette',
+                layout: 'topRight',
+                type: 'alert',
+                timeout: 2500
+            });
+
+            
+            
+            
+                    };
+
+
+        return {
+            init: function () {
+                _notyComponents();
+            }
+        }
+    }();
+
+    document.addEventListener('DOMContentLoaded', function () {
+        notyErrorMessages.init();
+    });
+</script></body>
+</html>
